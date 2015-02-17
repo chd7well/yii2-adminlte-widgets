@@ -19,7 +19,7 @@
     "minimum-stability": "dev",
     "require": {
         "yiisoft/yii2": "~2.0",
-	"dmstr/yii2-adminlte-asset": "*",
+	"dmstr/yii2-adminlte-asset": "*"
     },
     "autoload": {
         "psr-4": {
