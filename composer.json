@@ -1,0 +1,36 @@
+{
+    "name": "chd7well/yii2-adminlte-widgets",
+    "description": "AdminLTE Widgets for Yii2",
+    "keywords": ["yii2", "yii2-adminlte-widgets", "adminlte widgets yii2", "chd7well"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/chd7well/yii2-smartmenu/issues?state=open",
+        "forum": "https://gitter.im/chd7well/yii2-smartmenu",
+        "source": "https://github.com/chd7well/yii2-smartmenu"
+    },
+    "authors": [
+        {
+            "name": "Christian Dumhart",
+            "email": "christian.dumhart@chd.at",
+            "homepage": "http://www.chd.at"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "yiisoft/yii2": "~2.0",
+	"dmstr/yii2-adminlte-asset"
+    },
+    "autoload": {
+        "psr-4": {
+            "chd7well\\": ""
+        }
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
+
